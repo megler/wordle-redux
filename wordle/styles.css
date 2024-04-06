@@ -1,0 +1,96 @@
+/* Many of the styles like color and font are directly from NYT to match the UI
+   Actual font from Google Fonts
+*/
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  align-items: center;
+  border: 3px solid #d3d6da;
+  color: black;
+  display: flex;
+  font-size: 2rem;
+  font-weight: bold;
+  height: 80px;
+  justify-content: center;
+  line-height: 1;
+  text-transform: uppercase;
+  user-select: none;
+  vertical-align: middle;
+  width: 80px;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.gray {
+  background-color: #787c7e;
+  color: white;
+}
+
+.green {
+  background-color: #6aaa64;
+  color: white;
+}
+
+#gameboard {
+  display: grid;
+  gap: 4px;
+  grid-template-columns: repeat(5, 80px);
+  justify-content: center;
+  margin: 0 auto;
+  width: auto;
+}
+
+#keyboard {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.keyboard-key {
+  align-items: center;
+  background-color: #d3d6da;
+  border: 2px solid #d3d6da;
+  cursor: pointer;
+  display: flex;
+  font-family: "Open-Sans", sans-serif;
+  font-size: 1rem;
+  font-size: 1.25em;
+  font-weight: 600;
+  height: 60px;
+  justify-content: center;
+  margin: 2px;
+  user-select: none;
+  width: 90px;
+}
+
+.keyboard-row {
+  display: flex;
+  justify-content: center;
+  margin: 5px 0;
+}
+
+.special-key {
+  width: 60px;
+}
+
+#title {
+  font-family: "Merriweather", serif;
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.yellow {
+  background-color: #c9b458;
+  color: white;
+}
