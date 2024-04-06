@@ -67,6 +67,7 @@ function GameBoard({ guesses, answer }) {
  * @returns {React.Element} A React element representing a keyboard with rows of keys, including letters and functional keys like "enter" and "delete".
  */
 function KeyboardComponent() {
+  // Note: pointer is turned off in the CSS as there is no interactivity right now.
   const keyboardRows = [
     ["q", "w", "e", "r", "t", "y", "u", "i", "o", "p"],
     ["a", "s", "d", "f", "g", "h", "j", "k", "l"],

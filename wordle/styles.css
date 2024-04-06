@@ -60,7 +60,7 @@
   align-items: center;
   background-color: #d3d6da;
   border: 2px solid #d3d6da;
-  cursor: pointer;
+  /* cursor: pointer; */
   display: flex;
   font-family: "Open-Sans", sans-serif;
   font-size: 1rem;
